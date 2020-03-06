@@ -97,6 +97,27 @@ footer a {
 	display: none;
 }
 
+aside {
+	font-style: italic;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom:1em;
+}
+
+label {
+	display: block;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.chkbx {
+	display: inline-block;
+}
+
 /*Tablet rules*/
 @media only screen and (min-width:660px) {
 
@@ -117,6 +138,7 @@ footer a {
 		clear: left;
 		margin-top: -0.3em;
 		border-radius: 0;
+		overflow: auto;
 	}
 
 	.mobile {
@@ -192,6 +214,76 @@ footer a {
 	text-decoration: underline;
 	}
 
+	article {
+		background-color: #C1D9CA;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 31%;
+	}
+
+	main article img {
+			border: solid 0.1em #1D1D1C;
+			margin-left: auto;
+			margin-right: auto;
+	}
+	
+	main article p {
+		color: #000000;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+	}
+	
+	main article ul {
+		text-align: left;
+	}
+	
+	aside {
+		background-color: #FFFFFF;
+		border-radius: 0 5em 5em 5em;
+		box-shadow: 1em 1em 1em #4C4F4D;
+		padding: 1.5em;
+		margin: 1em;
+	}
+	
+	table {
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	
+	}
+	
+	th, td {
+		border: 0.1em solid #000000;
+		padding: 1em;
+	}
+	
+	th {
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+	
+	}
+	
+	caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: 0.5em;
+	}
+	
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 10em;
+	}
+	
+	.btn {
+		margin-left: 12em;
+	}
 }	
 /*Desktop rules*/
 @media only screen and (min-width: 830px) {
@@ -308,6 +400,29 @@ footer a {
 	
 	.contact {
 		color: #FFFFFF;
+	}
+	
+	main article h2 {
+		color: #000000;
+	}
+	
+	table {
+		background-color: #FFFFFF;
+		width: 80%;
+	}
+	
+	caption {
+		color: #FFFFFF;
+		
+	}
+	
+	form {
+		background-color: #FFFFFF;
+		padding: 1em;
+	}
+	
+	form p {
+		color: #000000;
 	}
 }
 
